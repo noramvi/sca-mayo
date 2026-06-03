@@ -77,10 +77,29 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+data/*.npy
+!data/*peaks*.npy
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
 
 # IPython
 profile_default/
 ipython_config.py
+
+
+# Firmware build artifacts
+firmware/**/objdir-*/
+firmware/**/*.elf
+firmware/**/*.map
+firmware/**/*.lst
+firmware/**/*.o
+firmware/**/*.d
+firmware/**/*.su
+
+# Keep built firmware images
+!firmware/**/*.hex
 
 # pyenv
 #   For a library or package, you might want to ignore these files since the code is
