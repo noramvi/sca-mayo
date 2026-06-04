@@ -3,6 +3,11 @@ This repository contains firmware, Jupyter notebooks, and supporting data used f
 
 The attack notebooks can be executed without capture hardware if the required trace datasets and peak files are available in the `data/` directory. However, recapturing traces or flashing firmware requires the correct ChipWhisperer setup and target hardware.
 
+## MAYO version
+The MAYO implementation included here is based on commit `29b1436` of:
+
+https://github.com/PQCMayo/MAYO-M4.git
+
 ## Repository layout
 
 ```text
